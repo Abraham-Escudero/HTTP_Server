@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a mi pagina web</title> <!-- Define en el head el titulo de la pagina-->
+</head>
+<body>
+    <h1>Hola a mi servidor http</h1>
+    <h2>Hola a mi servidor http</h2>
+    <h3>Hola a mi servidor http</h3>
+    <marquee> Wiiiiiiiiiiii</marquee>
+    <h4>Hola a mi servidor http</h4>
+    <h5>Hola a mi servidor http</h5>
+    <h6>Hola a mi servidor http</h6>
+    <a href="ventas.html"> Ir a vender nuestras almas</a>
+    <a href="https://www.google.com">Ir a google</a> <!--La etiqueta a sirve para navegar
+    entre paginas, si es una dentro del mismo archivo nada mas ponemos el nombre, si es
+    una pagina externa, se tiene que poner todo el link-->
+    <p><u>Hola a mi parrafo escrito en html... o copiado mejor dicho</u></p><!--u - Underline-->
+    <ul>    <!--Unordered list-->
+        <li>Leche</li>  <!--list item-->    
+        <li>Tomato</li>
+        <li>Pan</li>
+    </ul>
+    <ol>    <!--Ordered list-->
+        <li><b>Manolo</b></li>  <!--La etiqueta b es Bold, negrita-->
+        <li><i>Ignacio</i></li> <!--La etiqueta i es italica, cursiva-->
+        <li>Pancracio</li>
+        <li>Panfilo</li>
+    </ol>
+
+    <!-- Tablas-->
+    
+    <table>
+        <thead> <!--Titulos de las columnas-->
+            <tr>    <!--table row-->
+                <th>Matricula</th>
+                <th>Nombre</th>
+                <th>Calificacion</th>
+            </tr>
+        </thead> 
+        <tbody>
+            <tr>
+                <td>12345</td> <!--table data-->
+                <td>Menganito</td>
+                <td>6.9</td>
+            </tr>
+            <tr>
+                <td>24680</td> <!--table data-->
+                <td>Medrano</td>
+                <td>5.9</td>
+            </tr>
+            <tr>
+                <td>67890</td> <!--table data-->
+                <td>Dominguez</td>
+                <td>2.3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <img src="/images/finglogo.jpg">
+
+    <!--Formularios-->
+    <form action="/registro" method="POST"> 
+        <label for="Nombre">Nombre</label>
+        <input id="Nombre" type="text" name="Nombre"/>
+        <label for="Apellido">Apellido</label>
+        <input id="Apellido" type="text" name="Apellido"/>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
